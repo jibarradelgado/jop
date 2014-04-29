@@ -1,9 +1,20 @@
-set param1=test
-set param2=wcet
-set param3=ManyLoops
-set param4=loop
+set param1=test/wcet/test/src
+set param2=test
+set param3=IfForLoops
+set param4=measure10000
 make java_app wcet -e P1="%param1%" P2="%param2%" P3="%param3%" WCET_METHOD="%param4%" WCET_DFA=yes
 
-cd java\target\wcet\%param2%_%param3%_%param4%\report
-make 
-PAUSE
+
+if exist "java\target\wcet\%param2%_%param3%_%param4%\report" (
+	echo Directory exists
+	cd "java\target\wcet\%param2%_%param3%_%param4%\report"
+	make
+	index.html
+	exit
+) else (
+	echo There was an error with the path
+	pause
+	exit
+) 
+
+

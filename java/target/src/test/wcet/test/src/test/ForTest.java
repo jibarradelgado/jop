@@ -1,0 +1,74 @@
+package test;
+
+public class ForTest {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	public static int measure1(int var)
+	{
+		int i;
+		for (i=0; i<1;i++){
+			var += var;			
+		}
+		return var;
+	}
+	
+	public static int measure2(int var)
+	{
+		int i;
+		for (i=0; i<1;i++){ //WCA loop=1
+			var += var;			
+		}
+		return var;
+	}
+	
+	public static int measure3(int var)
+	{
+		int i;
+		for (i=0; i<2;i++){ //WCA loop=2
+			var += var;			
+		}
+		return var;
+	}
+	
+	public static int measure4(int var)
+	{
+		int i;
+		for (i=0; i<3;i++){ //WCA loop=3
+			var += var;			
+		}
+		return var;
+	}
+	
+	public static int measure5(int var)
+	{
+		int i;
+		for (i=0; i<4;i++){ //WCA loop=4
+			var += var;			
+		}
+		return var;
+	}
+
+	public static int measure6(boolean b, int val){
+		int i;
+		
+		if (b){
+			for (i=0; i<2; ++i){ //@WCA loop=2
+				val += val;
+			}
+		}
+		else {
+			for (i=0; i<2; ++i){ //@WCA loop=2
+				val += val;
+			}				
+		}
+		return val;		
+	}
+	
+	public static int measure7(boolean b, int var)
+	{
+		return var;
+	}
+}

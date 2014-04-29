@@ -1,5 +1,5 @@
 Assembler report for jop
-Mon Apr 28 13:51:45 2014
+Tue Apr 29 14:44:14 2014
 Quartus II 64-Bit Version 10.0 Build 218 06/27/2010 SJ Web Edition
 
 
@@ -10,8 +10,8 @@ Quartus II 64-Bit Version 10.0 Build 218 06/27/2010 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: E:/Documents/GitHub/jop/quartus/altde2-70/jop.sof
-  6. Assembler Device Options: E:/Documents/GitHub/jop/quartus/altde2-70/jop.pof
+  5. Assembler Device Options: C:/Users/Jorge/Documents/GitHub/jop/quartus/altde2-70/jop.sof
+  6. Assembler Device Options: C:/Users/Jorge/Documents/GitHub/jop/quartus/altde2-70/jop.pof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Mon Apr 28 13:51:45 2014 ;
+; Assembler Status      ; Successful - Tue Apr 29 14:44:14 2014 ;
 ; Revision Name         ; jop                                   ;
 ; Top-level Entity Name ; jop                                   ;
 ; Family                ; Cyclone II                            ;
@@ -78,37 +78,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+---------------------------------------------------+
-; Assembler Generated Files                         ;
-+---------------------------------------------------+
-; File Name                                         ;
-+---------------------------------------------------+
-; E:/Documents/GitHub/jop/quartus/altde2-70/jop.sof ;
-; E:/Documents/GitHub/jop/quartus/altde2-70/jop.pof ;
-+---------------------------------------------------+
++---------------------------------------------------------------+
+; Assembler Generated Files                                     ;
++---------------------------------------------------------------+
+; File Name                                                     ;
++---------------------------------------------------------------+
+; C:/Users/Jorge/Documents/GitHub/jop/quartus/altde2-70/jop.sof ;
+; C:/Users/Jorge/Documents/GitHub/jop/quartus/altde2-70/jop.pof ;
++---------------------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------+
-; Assembler Device Options: E:/Documents/GitHub/jop/quartus/altde2-70/jop.sof ;
-+----------------+------------------------------------------------------------+
-; Option         ; Setting                                                    ;
-+----------------+------------------------------------------------------------+
-; Device         ; EP2C70F896C6                                               ;
-; JTAG usercode  ; 0xFFFFFFFF                                                 ;
-; Checksum       ; 0x00A4BE9F                                                 ;
-+----------------+------------------------------------------------------------+
++-----------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/Jorge/Documents/GitHub/jop/quartus/altde2-70/jop.sof ;
++----------------+------------------------------------------------------------------------+
+; Option         ; Setting                                                                ;
++----------------+------------------------------------------------------------------------+
+; Device         ; EP2C70F896C6                                                           ;
+; JTAG usercode  ; 0xFFFFFFFF                                                             ;
+; Checksum       ; 0x00A4BE9F                                                             ;
++----------------+------------------------------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------+
-; Assembler Device Options: E:/Documents/GitHub/jop/quartus/altde2-70/jop.pof ;
-+--------------------+--------------------------------------------------------+
-; Option             ; Setting                                                ;
-+--------------------+--------------------------------------------------------+
-; Device             ; EPCS16                                                 ;
-; JTAG usercode      ; 0x00000000                                             ;
-; Checksum           ; 0x1821E7BB                                             ;
-; Compression Ratio  ; 3                                                      ;
-+--------------------+--------------------------------------------------------+
++-----------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/Jorge/Documents/GitHub/jop/quartus/altde2-70/jop.pof ;
++--------------------+--------------------------------------------------------------------+
+; Option             ; Setting                                                            ;
++--------------------+--------------------------------------------------------------------+
+; Device             ; EPCS16                                                             ;
+; JTAG usercode      ; 0x00000000                                                         ;
+; Checksum           ; 0x1821E7BB                                                         ;
+; Compression Ratio  ; 3                                                                  ;
++--------------------+--------------------------------------------------------------------+
 
 
 +--------------------+
@@ -130,15 +130,15 @@ Info: Running Quartus II 64-Bit Assembler
     Info: programming logic devices manufactured by Altera and sold by 
     Info: Altera or its authorized distributors.  Please refer to the 
     Info: applicable agreement for further details.
-    Info: Processing started: Mon Apr 28 13:51:41 2014
+    Info: Processing started: Tue Apr 29 14:44:10 2014
 Info: Command: quartus_asm quartus/altde2-70/jop
 Info: Default assignment values were changed in the current version of the Quartus II software -- changes to default assignments values are contained in file c:/altera/10.0/quartus/bin64/assignment_defaults.qdf
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 465 megabytes
-    Info: Processing ended: Mon Apr 28 13:51:45 2014
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Peak virtual memory: 453 megabytes
+    Info: Processing ended: Tue Apr 29 14:44:15 2014
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:04
 
 
