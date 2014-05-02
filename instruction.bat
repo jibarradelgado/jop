@@ -1,7 +1,7 @@
 set param1=test/wcet/test/src
 set param2=test
-set param3=IfForLoops
-set param4=measure10000
+set param3=IfElseTest
+set param4=measure6
 make java_app wcet -e P1="%param1%" P2="%param2%" P3="%param3%" WCET_METHOD="%param4%" WCET_DFA=yes
 
 
